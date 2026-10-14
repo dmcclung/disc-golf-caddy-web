@@ -1,0 +1,19 @@
+body {
+  overflow-y: auto !important;
+  scroll-behavior: smooth;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Prevent layout shifts from modal and auth components */
+.dialog-overlay {
+  position: fixed !important;
+}
+
+/* Ensure stable layouts */
+.auth-gate-container {
+  position: relative;
+  contain: layout style;
+}
