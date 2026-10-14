@@ -1,4 +1,4 @@
-# DG Caddy
+# Disc Golf Caddy Web
 
 Find disc golf courses near you, check in, and chat with other players at a course.
 
